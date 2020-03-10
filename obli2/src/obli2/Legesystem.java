@@ -117,6 +117,7 @@ public class Legesystem {
 				}
 				System.out.println("Chosen: " + thePatient.henteNavn() + " (" + thePatient.hentefodselnummer() + ")");
 				if (thePatient.sinReseptListe.stoerrelse() != 0) {
+					System.out.println("Please choose one prescription, enter the number");
 					for (Resept u : thePatient.sinReseptListe) {
 						System.out
 								.println(u.Id + ": " + u.hentLegemiddel().hentNavn() + " (Reit: " + u.hentReit() + ")");

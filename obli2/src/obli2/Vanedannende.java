@@ -12,7 +12,7 @@ public class Vanedannende  extends Legemiddel{
 	}
 	@Override
 	public String toString() {
-		return navn+ " [Vanedannende] [navn=" + navn + ", virkestoff=" + virkestoff + ", pris=" + pris + ", Id=" + Id
+		return navn+ " [Vanedannende] [virkestoff=" + virkestoff + ", pris=" + pris + ", Id=" + Id
 				+ ", styrke=" + styrke + "]";
 	}
 	

@@ -8,7 +8,7 @@ public class  Vanlig extends Legemiddel{
 
 	@Override
 	public String toString() {
-		return navn+ " [Vanlig] [navn=" + navn + ", virkestoff=" + virkestoff + ", pris=" + pris + ", Id=" + Id + "]";
+		return navn+ " [Vanlig] [virkestoff=" + virkestoff + ", pris=" + pris + ", Id=" + Id + "]";
 	}
 	
 	
